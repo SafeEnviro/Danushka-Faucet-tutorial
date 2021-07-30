@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>DB Coin</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+
+    
+  </head>
+  <body>
+    
+    <div class="container" style="width: 650px;">
+      <div class="row">
+        <div class="col-xs-12 ">
+          <h1 class="text-center">DB Coin</h1>
+          <hr/>
+          <br/>
+        </div>
+      </div>
+
+      <div id="lodar" >
+        <p class="text-center">Welcome</p>  
+      </div>
+
+      <br>
+    <div id="content" class="text-center";>
+      <p>Welcome to New DB Coin, Transfer Coindb to your wallet <span class="DB-balance"></span>
+      </p>
+    </div>
+
+    
+         
+      <br>
+       <div class="send">
+        <form onclick="App.getTestTokens(); return false;" role="form">
+          <div class="form-group">
+            <div class="input-group">
+              <input id="DBCoins" class="form-control input-lg"  type="text" placeholder="Enter your Address" value="" pattern="[0-9]">
+            </input>
+            <span class="input-group-btn">
+              <button id="senddb" type="submit" class="btn btn-primary btn-lg">Send Token</button>
+            </span>
+            </div>
+          </div>
+      <br>
+          
+    </div>
+    
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+    
+  </body>
+</html>
